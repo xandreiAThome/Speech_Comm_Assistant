@@ -1,6 +1,6 @@
 # pip install vosk
 # pip install pyaudio
-# download speech model in https://alphacephei.com/vosk/models, unzip and place on same folder
+# download speech model vosk-model-small-en-us-0.15 in https://alphacephei.com/vosk/models, unzip and place on same folder
 
 from vosk import Model, KaldiRecognizer
 import pyaudio
