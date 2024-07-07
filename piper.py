@@ -6,6 +6,7 @@ import os
 import wave
 from piper.voice import PiperVoice
 
+# replace path with the path of the onnx file
 model_path = "path"
 voice = PiperVoice.load(model_path)
 wav_file = wave.open('output.wav', 'w')

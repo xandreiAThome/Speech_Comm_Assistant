@@ -1,5 +1,7 @@
 # pip install vosk
 # pip install pyaudio
+# if cant install pyaudio
+# sudo apt-get update && sudo apt-get install python3-dev python3-pip portaudio19-dev && pip3 install pyaudio
 # download speech model vosk-model-small-en-us-0.15 in https://alphacephei.com/vosk/models, unzip and place on same folder
 
 from vosk import Model, KaldiRecognizer
